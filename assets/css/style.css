@@ -45,6 +45,7 @@ img {
 	border: 2px solid #42C0FB;
 }
 /* End Nav Section */
+
 /* Hero Section */
 #hero {
 	background-image: url('../img/man.png');
@@ -79,21 +80,17 @@ h6 {
 	background-color: #FF6500;
 }
 /* End Hero Section */
-/* Section-B */
-/* .row {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-wrap: wrap;
+.section-b {
+	/* display: flex; */
+	min-height: 100vh;
+	/* width: 220vh; */
+	align-items: center;
+	justify-content: center;
 }
-.row > [class*="col-"] {
-	display: flex;
-	flex-direction: column;
-} */
+/* Section-B */
 .background-wrapper {
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
 	box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
@@ -101,9 +98,10 @@ h6 {
 	/* background-position: 50% 50%; */
 	background-size: cover;
 	background-repeat: none;
-	/* max-width: 350px; */
+	max-width: 68%;
 	max-height: 350px;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-left: 200px;
 }
 .force-ratio {
 	padding-top: 100%;
@@ -112,8 +110,8 @@ h6 {
 .img-container {
 	position: absolute;
 	margin: auto;
-	top: 0;
-	bottom: 0;
+	top: 35%;
+	/* bottom: 50%; */
 	left: 0;
 	right: 0;
 }
@@ -122,26 +120,29 @@ h6 {
 	font: 0/0 a;
 		
 }
-.center-block-align {
+/* .center-block-align {
 	display: inline-block;
 	vertical-align: middle;
 	height: 100%;
-}
+} */
 .img-circle {
 	cursor: pointer;
-	height: 20%;
-	width: 15%; 
+	height: 25%;
+	width: 20%; 
 	/* transform: translate(0%, 0%); */
+}
+.right2 {
+	margin-left: 50px;
 }
 .black {
 	color: #808080;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 }
 .card-glade {
 	color: #0099CC;
 	text-transform: capitalize;
-	font-size: 32px;
+	font-size: 37px;
 	font-weight: bold;
 	/* letter-spacing: 2.5px; */
 }
@@ -151,6 +152,7 @@ h6 {
 	letter-spacing: .8px;
 	/* font-weight: bold; */
 }
+
 .section-b .btn {
 	padding: 0.3px solid #FFF !important;
 	color: #0099CC;
@@ -163,6 +165,47 @@ h6 {
 	background-color: #808080;
 }
 /* End Section-B */
+/* Section-C */
+.section-c {
+	
+	/* background-color: #F0FFFF; */
+	margin-left: 250px;
+	margin-top: -150px;
+
+}
+.benefits {
+	margin-left: -370px;
+}
+.phone {
+	object-fit: cover; 
+	margin-left: -100px;
+	margin-top: -30px;
+}
+.right3 {
+	height: 450px;
+	line-height: 0.1px;
+}
+.section-c .btn {
+	margin-top: 15px;
+	margin-left: -15px;
+	float: left;
+	padding: 0.3px solid #FFF !important;
+	color: #0099CC;
+	font-size: 15px !important;
+	border: 2px solid #F0FFFF;
+	letter-spacing: 0.2px;
+}
+
+.section-c .btn:hover {
+	background-color: #808080;
+}
+.fa-angle-down {
+	margin: 5px;
+}
+/* End Section-C */
+/* Section-D */
+
+/* End Section-D */
 /* Section-E */
 .section-e {
 	margin: ;
